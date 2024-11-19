@@ -1,0 +1,9 @@
+*
+!.gitignore
+!.obsidian/
+!.obsidian/*
+.obsidian/appearance.json
+.obsidian/workspace.json
+!.vsuvian/
+!.vsuvian/*
+!README.md
