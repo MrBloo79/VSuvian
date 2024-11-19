@@ -1,5 +1,6 @@
 {
     "name": "VSuvian",
+    "settings": "{\"settings\":\"{\\r\\n    \\\"editor.detectIndentation\\\": false\\r\\n}\"}",
     "tasks": {
         "tasks": {
             "version": "2.0.0",
