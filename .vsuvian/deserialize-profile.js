@@ -9,6 +9,7 @@ profile.settings = JSON.parse(profile.settings);
 profile.settings.settings = JSON.parse(profile.settings.settings);
 profile.tasks = JSON.parse(profile.tasks);
 profile.tasks.tasks = JSON.parse(profile.tasks.tasks);
+profile.extensions = JSON.parse(profile.extensions);
 profile.globalState = JSON.parse(profile.globalState);
 const storage = profile.globalState.storage;
 for (const key in storage) {

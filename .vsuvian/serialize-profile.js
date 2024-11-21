@@ -12,6 +12,7 @@ for (const key in storage) {
     }
 }
 profile.globalState = JSON.stringify(profile.globalState);
+profile.extensions = JSON.stringify(profile.extensions);
 profile.tasks.tasks = JSON.stringify(profile.tasks.tasks);
 profile.tasks = JSON.stringify(profile.tasks);
 profile.settings.settings = JSON.stringify(profile.settings.settings);

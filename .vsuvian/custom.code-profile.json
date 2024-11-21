@@ -32,7 +32,16 @@
             ]
         }
     },
-    "extensions": "[{\"identifier\":{\"id\":\"foam.foam-vscode\",\"uuid\":\"b85c6625-454b-4b61-8a22-c42f3d0f2e1e\"},\"displayName\":\"Foam\",\"applicationScoped\":false}]",
+    "extensions": [
+        {
+            "identifier": {
+                "id": "foam.foam-vscode",
+                "uuid": "b85c6625-454b-4b61-8a22-c42f3d0f2e1e"
+            },
+            "displayName": "Foam",
+            "applicationScoped": false
+        }
+    ],
     "globalState": {
         "storage": {
             "workbench.explorer.views.state.hidden": [
@@ -59,6 +68,26 @@
                 {
                     "id": "npm",
                     "isHidden": true
+                },
+                {
+                    "id": "foam-vscode.connections",
+                    "isHidden": false
+                },
+                {
+                    "id": "foam-vscode.tags-explorer",
+                    "isHidden": false
+                },
+                {
+                    "id": "foam-vscode.notes-explorer",
+                    "isHidden": false
+                },
+                {
+                    "id": "foam-vscode.orphans",
+                    "isHidden": false
+                },
+                {
+                    "id": "foam-vscode.placeholders",
+                    "isHidden": false
                 }
             ],
             "workbench.view.search.state.hidden": [
