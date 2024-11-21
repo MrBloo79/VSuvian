@@ -18,7 +18,7 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - [ ] Footnotes
     - [ ] Comments
 - [ ] User Experience
-    - [ ] Auto save
+    - [x] Auto save
 
 ## Design Rationales
 
