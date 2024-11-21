@@ -32,6 +32,7 @@
             ]
         }
     },
+    "extensions": "[{\"identifier\":{\"id\":\"foam.foam-vscode\",\"uuid\":\"b85c6625-454b-4b61-8a22-c42f3d0f2e1e\"},\"displayName\":\"Foam\",\"applicationScoped\":false}]",
     "globalState": {
         "storage": {
             "workbench.explorer.views.state.hidden": [

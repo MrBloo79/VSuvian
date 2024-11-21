@@ -4,6 +4,8 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
 
 ## Expected Features
 
+- [ ] User Experience
+    - [x] Auto save
 - [ ] Basic formatting syntax
     - [x] New-Line-to-Break
     - [x] Headings
@@ -11,14 +13,17 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - [x] External Links
     - [x] Quotes
 - [ ] Extended formatting syntax
-    - [ ] Internal links
+    - [x] Internal links (wikilinks, aliases and anchors)
+    - [x] Tags
     - [ ] Tasks
-    - [ ] Strikethrough
+    - [x] Strikethrough
     - [ ] Highlights
     - [ ] Footnotes
     - [ ] Comments
-- [ ] User Experience
-    - [x] Auto save
+
+## Credits
+
+- [Foam](https://foambubble.github.io/foam/) by Riccardo
 
 ## Design Rationales
 
