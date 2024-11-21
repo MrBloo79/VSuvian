@@ -52,6 +52,10 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - Although profiles are valid JSON, they are not human-readable. NodeJS tasks allow (de)serialize its content.
     - This approach results in better incremental diffs, at the cost of extra operations.
 
-### Sticky Scroll
+### No Live Preview
+
+Live Preview is disabled on Obsidian to enforce a consistent beavior with VSuvian.
+
+### No Sticky Scroll
 
 Sticky scroll is disabled on VSuvian to maintain parity with Obsidian. However, this feature can be replicated using the [Another Sticky Headings](https://github.com/zhouhua/obsidian-sticky-headings) plugin.
