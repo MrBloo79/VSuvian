@@ -5,7 +5,10 @@
             "editor.detectIndentation": false,
             "markdown.preview.breaks": true,
             "files.autoSave": "afterDelay",
-            "editor.stickyScroll.enabled": false
+            "editor.stickyScroll.enabled": false,
+            "markdownExtended.disabledPlugins": "kbd",
+            "markdown.extension.italic.indicator": "_",
+            "preview.previewTheme": "Dark"
         }
     },
     "tasks": {
@@ -40,6 +43,30 @@
                 "uuid": "b85c6625-454b-4b61-8a22-c42f3d0f2e1e"
             },
             "displayName": "Foam",
+            "applicationScoped": false
+        },
+        {
+            "identifier": {
+                "id": "jebbs.markdown-extended",
+                "uuid": "41c03ed0-b7b8-4476-8d01-926a7e041e69"
+            },
+            "displayName": "Markdown Extended",
+            "applicationScoped": false
+        },
+        {
+            "identifier": {
+                "id": "kejun.markdown-alert",
+                "uuid": "8e4cce45-c78a-448f-827d-998c588cfa34"
+            },
+            "displayName": "Markdown Alert",
+            "applicationScoped": false
+        },
+        {
+            "identifier": {
+                "id": "yzhang.markdown-all-in-one",
+                "uuid": "98790d67-10fa-497c-9113-f6c7489207b2"
+            },
+            "displayName": "Markdown All in One",
             "applicationScoped": false
         }
     ],

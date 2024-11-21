@@ -8,14 +8,14 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - [x] Auto save
     - [x] Link autocompletion
     - [x] Sync links on file rename
-    - [x] Backlinks
+    - [ ] Incoming and outgoing links
     - [ ] Templates
     - [ ] Daily notes
-    - [x] Graph Visualization
+    - [x] Graph visualization
     - [ ] Consistent keyboard shortcuts
     - [ ] Consistent layout
     - [ ] Custom theme (colors, icons, font)
-- [ ] Basic formatting syntax
+- [x] Basic formatting syntax
     - [x] New-Line-to-Break
     - [x] Headings
     - [x] Bold, italics
@@ -27,20 +27,23 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - [ ] Embed files and images (with custom width)
     - [ ] Properties
     - [x] Tags
-    - [ ] Tasks
+    - [x] Tasks
     - [x] Strikethrough
     - [ ] Highlights
-    - [ ] Callouts
+    - [x] Callouts (NOTE, TIP, IMPORTANT, WARNING, CAUTION)
     - [ ] Tables (edition and formatting)
     - [ ] Diagrams
-    - [ ] Math
+    - [x] Math
     - [ ] Slides
-    - [ ] Footnotes
+    - [x] Footnotes
     - [ ] HTML content and comments
 
 ## Credits
 
-- [Foam](https://foambubble.github.io/foam/) by Riccardo
+- [Foam](https://foambubble.github.io/foam/) by Riccardo Ferretti
+- [Markdown Alert](https://github.com/kejunmao/vscode-markdown-alert) by KeJunMao
+- [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown) by Yu Zhang
+- [Markdown Extended](https://github.com/qjebbs/vscode-markdown-extended) by jebbs
 
 ## Design Rationales
 
