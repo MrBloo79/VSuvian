@@ -5,7 +5,7 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
 ## Expected Features
 
 - [ ] Basic formatting syntax
-    - [ ] New-Line-to-Break
+    - [x] New-Line-to-Break
     - [x] Headings
     - [x] Bold, italics
     - [x] External Links
