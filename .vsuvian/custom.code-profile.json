@@ -4,7 +4,8 @@
         "settings": {
             "editor.detectIndentation": false,
             "markdown.preview.breaks": true,
-            "files.autoSave": "afterDelay"
+            "files.autoSave": "afterDelay",
+            "editor.stickyScroll.enabled": false
         }
     },
     "tasks": {

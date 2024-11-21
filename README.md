@@ -12,6 +12,7 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - [x] Bold, italics
     - [x] External Links
     - [x] Quotes
+    - [x] Code (block and inline)
 - [ ] Extended formatting syntax
     - [x] Internal links (wikilinks, aliases and anchors)
     - [x] Tags
@@ -34,3 +35,7 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
 - VSCode profile provides a consistent and non intrusive way to share customization (including layout).
     - Although profiles are valid JSON, they are not human-readable. NodeJS tasks allow (de)serialize its content.
     - This approach results in better incremental diffs, at the cost of extra operations.
+
+### Sticky Scroll
+
+Sticky scroll is disabled on VSuvian to maintain parity with Obsidian. However, this feature can be replicated using the [Another Sticky Headings](https://github.com/zhouhua/obsidian-sticky-headings) plugin.
