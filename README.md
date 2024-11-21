@@ -6,21 +6,37 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
 
 - [ ] User Experience
     - [x] Auto save
+    - [x] Link autocompletion
+    - [x] Sync links on file rename
+    - [x] Backlinks
+    - [ ] Templates
+    - [ ] Daily notes
+    - [x] Graph Visualization
+    - [ ] Consistent keyboard shortcuts
+    - [ ] Consistent layout
+    - [ ] Custom theme (colors, icons, font)
 - [ ] Basic formatting syntax
     - [x] New-Line-to-Break
     - [x] Headings
     - [x] Bold, italics
     - [x] External Links
     - [x] Quotes
-    - [x] Code (block and inline)
+    - [x] Code (as inline or blocks)
 - [ ] Extended formatting syntax
-    - [x] Internal links (wikilinks, aliases and anchors)
+    - [x] Internal links (as wikilinks with aliases and anchors)
+    - [ ] Embed files and images (with custom width)
+    - [ ] Properties
     - [x] Tags
     - [ ] Tasks
     - [x] Strikethrough
     - [ ] Highlights
+    - [ ] Callouts
+    - [ ] Tables (edition and formatting)
+    - [ ] Diagrams
+    - [ ] Math
+    - [ ] Slides
     - [ ] Footnotes
-    - [ ] Comments
+    - [ ] HTML content and comments
 
 ## Credits
 
