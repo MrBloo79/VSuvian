@@ -5,6 +5,8 @@ const profilePath = '.vsuvian/custom.code-profile';
 let profile = fs.readFileSync(profilePath, 'utf-8');
 profile = JSON.parse(profile);
 
+profile.settings = JSON.parse(profile.settings);
+profile.settings.settings = JSON.parse(profile.settings.settings);
 profile.tasks = JSON.parse(profile.tasks);
 profile.tasks.tasks = JSON.parse(profile.tasks.tasks);
 profile.globalState = JSON.parse(profile.globalState);

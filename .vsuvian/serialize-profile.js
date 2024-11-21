@@ -14,5 +14,7 @@ for (const key in storage) {
 profile.globalState = JSON.stringify(profile.globalState);
 profile.tasks.tasks = JSON.stringify(profile.tasks.tasks);
 profile.tasks = JSON.stringify(profile.tasks);
+profile.settings.settings = JSON.stringify(profile.settings.settings);
+profile.settings = JSON.stringify(profile.settings);
 
 fs.writeFileSync(profilePath, JSON.stringify(profile), 'utf-8');

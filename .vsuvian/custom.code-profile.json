@@ -1,6 +1,12 @@
 {
     "name": "VSuvian",
-    "settings": "{\"settings\":\"{\\r\\n    \\\"editor.detectIndentation\\\": false,\\r\\n    \\\"markdown.preview.breaks\\\": true,\\r\\n    \\\"files.autoSave\\\": \\\"afterDelay\\\"\\r\\n}\"}",
+    "settings": {
+        "settings": {
+            "editor.detectIndentation": false,
+            "markdown.preview.breaks": true,
+            "files.autoSave": "afterDelay"
+        }
+    },
     "tasks": {
         "tasks": {
             "version": "2.0.0",
