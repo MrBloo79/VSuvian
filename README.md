@@ -2,6 +2,24 @@ VSuvian is a personal knowledge management (PKM) system designed to offer a **co
 
 It aims to facilitate collaboration in situations where Obsidian is not an option, without reinventing the wheel. To do so, it focuses on essential features supplied by popular extensions and some extra customization.
 
+## Expected Features
+
+- [ ] Basic formatting syntax
+    - [ ] New-Line-to-Break
+    - [x] Headings
+    - [x] Bold, italics
+    - [x] External Links
+    - [x] Quotes
+- [ ] Extended formatting syntax
+    - [ ] Internal links
+    - [ ] Tasks
+    - [ ] Strikethrough
+    - [ ] Highlights
+    - [ ] Footnotes
+    - [ ] Comments
+- [ ] User Experience
+    - [ ] Auto save
+
 ## Design Rationales
 
 ### Non-Intrusive Setup
