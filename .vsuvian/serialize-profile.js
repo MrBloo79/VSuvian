@@ -15,6 +15,8 @@ profile.globalState = JSON.stringify(profile.globalState);
 profile.extensions = JSON.stringify(profile.extensions);
 profile.tasks.tasks = JSON.stringify(profile.tasks.tasks);
 profile.tasks = JSON.stringify(profile.tasks);
+profile.keybindings.keybindings = JSON.stringify(profile.keybindings.keybindings);
+profile.keybindings = JSON.stringify(profile.keybindings);
 profile.settings.settings = JSON.stringify(profile.settings.settings);
 profile.settings = JSON.stringify(profile.settings);
 

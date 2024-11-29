@@ -11,8 +11,8 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - [x] Incoming links
     - [ ] Templates
     - [ ] Daily notes
-    - [ ] Consistent keyboard shortcuts
-    - [ ] Consistent layout
+    - [x] Consistent keyboard shortcuts
+    - [x] Consistent layout
     - [ ] Custom theme (colors, icons, font)
 - [x] Basic formatting syntax
     - [x] New-Line-to-Break
@@ -63,3 +63,13 @@ Markdown Memo may not the most popular note-linking extension for VSCode. It lac
 ### Render Consistency
 
 Live Preview and Sticky Scroll are disabled to ensure a consistent behavior between Obsidian and VSCode. However an alternative could be to replicate Sticky Scroll using the [Another Sticky Headings](https://github.com/zhouhua/obsidian-sticky-headings) plugin.
+
+### Keyboard Shortcuts Consistency
+
+Custom hotkeys allow to maintain a consistent experience between Obsidian and VSCode:
+
+- `Ctrl + E` to toggle preview/source mode
+- `Ctrl + O` to quick open files
+- `Ctrl + P` to show commands
+- `Ctrl + V` to paste as Markdown
+- `Ctrl + Shift + V` to paste without converting

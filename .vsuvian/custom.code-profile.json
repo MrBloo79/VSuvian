@@ -25,6 +25,69 @@
             "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}"
         }
     },
+    "keybindings": {
+        "keybindings": [
+            {
+                "key": "ctrl+shift+v",
+                "command": "-markdown.showPreview",
+                "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+            },
+            {
+                "key": "ctrl+e",
+                "command": "markdown.showPreview",
+                "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+            },
+            {
+                "key": "ctrl+e",
+                "command": "markdown.showSource",
+                "when": "activeWebviewPanelId == 'markdown.preview'"
+            },
+            {
+                "key": "ctrl+k v",
+                "command": "-markdown.showPreviewToSide",
+                "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+            },
+            {
+                "key": "ctrl+v",
+                "command": "-editor.action.clipboardPasteAction"
+            },
+            {
+                "key": "ctrl+v",
+                "command": "memo.pasteHtmlAsMarkdown",
+                "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+            },
+            {
+                "key": "ctrl+shift+v",
+                "command": "editor.action.clipboardPasteAction",
+                "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+            },
+            {
+                "key": "ctrl+e",
+                "command": "-workbench.action.quickOpen"
+            },
+            {
+                "key": "ctrl+o",
+                "command": "-workbench.action.files.openFile"
+            },
+            {
+                "key": "ctrl+o",
+                "command": "workbench.action.quickOpen"
+            },
+            {
+                "key": "ctrl+p",
+                "command": "-workbench.action.quickOpen"
+            },
+            {
+                "key": "ctrl+p",
+                "command": "workbench.action.showCommands"
+            },
+            {
+                "key": "ctrl+shift+p",
+                "command": "-workbench.action.showCommands"
+            }
+        ],
+        "platform": 3
+    },
     "tasks": {
         "tasks": {
             "version": "2.0.0",

@@ -7,6 +7,8 @@ profile = JSON.parse(profile);
 
 profile.settings = JSON.parse(profile.settings);
 profile.settings.settings = JSON.parse(profile.settings.settings);
+profile.keybindings = JSON.parse(profile.keybindings);
+profile.keybindings.keybindings = JSON.parse(profile.keybindings.keybindings);
 profile.tasks = JSON.parse(profile.tasks);
 profile.tasks.tasks = JSON.parse(profile.tasks.tasks);
 profile.extensions = JSON.parse(profile.extensions);
