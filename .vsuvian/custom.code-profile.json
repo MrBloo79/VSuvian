@@ -8,7 +8,6 @@
             "editor.stickyScroll.enabled": false,
             "markdownExtended.disabledPlugins": "kbd",
             "markdown.extension.italic.indicator": "_",
-            "preview.previewTheme": "Dark",
             "workbench.startupEditor": "none",
             "files.defaultLanguage": "markdown",
             "explorer.confirmDelete": false,
@@ -17,7 +16,11 @@
                 "**/.obsidian": true,
                 "**/.vsuvian": true
             },
-            "workbench.activityBar.location": "top"
+            "workbench.activityBar.location": "top",
+            "markdown.styles": [
+                ".vsuvian/custom.css"
+            ],
+            "markdown.extension.extraLangIds": []
         }
     },
     "tasks": {
@@ -85,6 +88,14 @@
                 "uuid": "d637104e-1fd7-4063-98fc-8afe46012c9b"
             },
             "displayName": "File Utils",
+            "applicationScoped": false
+        },
+        {
+            "identifier": {
+                "id": "unmannedaero.markdown-yaml-frontpage",
+                "uuid": "1cfe2891-fcb5-4e73-9e91-46353712d951"
+            },
+            "displayName": "Markdown yaml Frontpage",
             "applicationScoped": false
         },
         {

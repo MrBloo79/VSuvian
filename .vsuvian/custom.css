@@ -1,0 +1,9 @@
+/* Markdown YAML Frontpage: Hide headers */
+#docHeaderTable, #docInfoTable thead {
+    display: none;
+}
+
+/* Markdown YAML Frontpage: Hide row separators */
+#docInfoTable th, #docInfoTable td {
+    border: none;
+}
