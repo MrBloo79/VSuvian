@@ -20,7 +20,9 @@
             "markdown.styles": [
                 ".vsuvian/custom.css"
             ],
-            "window.zoomLevel": 0.4
+            "markdown.extension.extraLangIds": [],
+            "window.zoomLevel": 0.4,
+            "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}"
         }
     },
     "tasks": {
