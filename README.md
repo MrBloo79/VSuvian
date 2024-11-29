@@ -8,10 +8,9 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - [x] Auto save
     - [x] Link autocompletion
     - [x] Sync links on file rename
-    - [ ] Incoming and outgoing links
+    - [x] Incoming links
     - [ ] Templates
     - [ ] Daily notes
-    - [x] Graph visualization
     - [ ] Consistent keyboard shortcuts
     - [ ] Consistent layout
     - [ ] Custom theme (colors, icons, font)
@@ -23,10 +22,9 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - [x] Quotes
     - [x] Code (as inline or blocks)
 - [ ] Extended formatting syntax
-    - [x] Internal links (as wikilinks with aliases and anchors)
+    - [x] Internal links (as wikilinks with aliases)
     - [ ] Embed files and images (with custom width)
-    - [ ] Properties
-    - [x] Tags
+    - [x] Properties
     - [x] Tasks
     - [x] Strikethrough
     - [ ] Highlights
@@ -40,11 +38,13 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
 
 ## Credits
 
-- [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode) by Riccardo Ferretti
-- [Markdown Alert](https://marketplace.visualstudio.com/items?itemName=kejun.markdown-alert) by KeJunMao
-- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) by Yu Zhang
-- [Markdown Extended](https://marketplace.visualstudio.com/items?itemName=jebbs.markdown-extended) by jebbs
-- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) by Alessandro Fragnani
+- [Customizing VSCode for Markdown Note-taking](https://mybyways.com/blog/customizing-vs-code-for-markdown-note-taking) article by C.Y. Wong
+- [A Guide On Links vs. Tags](https://forum.obsidian.md/t/a-guide-on-links-vs-tags-in-obsidian/28231) article by Price Baldwin
+- [Markdown Alert](https://marketplace.visualstudio.com/items?itemName=kejun.markdown-alert) extension by KeJunMao
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension by Yu Zhang
+- [Markdown Extended](https://marketplace.visualstudio.com/items?itemName=jebbs.markdown-extended) extension by jebbs
+- [Markdown Memo](https://marketplace.visualstudio.com/items?itemName=svsool.markdown-memo) extension by Svyat Sobol
+- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) extension by Alessandro Fragnani
 
 ## Design Rationales
 
@@ -56,10 +56,10 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - Although profiles are valid JSON, they are not human-readable. NodeJS tasks allow (de)serialize its content.
     - This approach results in better incremental diffs, at the cost of extra operations.
 
-### No Live Preview
+### Note Linking
 
-Live Preview is disabled on Obsidian to enforce a consistent beavior with VSuvian.
+Markdown Memo may not the most popular note-linking extension for VSCode. It lacks a tag system and graph view. However, unlike Foam, it allows wikilinks (as strings) in the frontmatter and offers better completion than Markdown Notes.
 
-### No Sticky Scroll
+### Render Consistency
 
-Sticky scroll is disabled on VSuvian to maintain parity with Obsidian. However, this feature can be replicated using the [Another Sticky Headings](https://github.com/zhouhua/obsidian-sticky-headings) plugin.
+Live Preview and Sticky Scroll are disabled to ensure a consistent behavior between Obsidian and VSCode. However an alternative could be to replicate Sticky Scroll using the [Another Sticky Headings](https://github.com/zhouhua/obsidian-sticky-headings) plugin.

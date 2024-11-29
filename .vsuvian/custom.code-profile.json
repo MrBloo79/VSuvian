@@ -59,14 +59,6 @@
         },
         {
             "identifier": {
-                "id": "foam.foam-vscode",
-                "uuid": "b85c6625-454b-4b61-8a22-c42f3d0f2e1e"
-            },
-            "displayName": "Foam",
-            "applicationScoped": false
-        },
-        {
-            "identifier": {
                 "id": "jebbs.markdown-extended",
                 "uuid": "41c03ed0-b7b8-4476-8d01-926a7e041e69"
             },
@@ -88,6 +80,14 @@
                 "uuid": "d637104e-1fd7-4063-98fc-8afe46012c9b"
             },
             "displayName": "File Utils",
+            "applicationScoped": false
+        },
+        {
+            "identifier": {
+                "id": "svsool.markdown-memo",
+                "uuid": "a654a671-80d2-4f77-9c27-7f83f02cf376"
+            },
+            "displayName": "Markdown Memo",
             "applicationScoped": false
         },
         {
@@ -116,7 +116,7 @@
                 },
                 {
                     "id": "timeline",
-                    "isHidden": false
+                    "isHidden": true
                 },
                 {
                     "id": "workbench.explorer.openEditorsView",
@@ -152,6 +152,14 @@
                 },
                 {
                     "id": "foam-vscode.placeholders",
+                    "isHidden": false
+                },
+                {
+                    "id": "memo.backlinksPanel",
+                    "isHidden": false
+                },
+                {
+                    "id": "vscodeMarkdownNotesBacklinks",
                     "isHidden": false
                 }
             ],
