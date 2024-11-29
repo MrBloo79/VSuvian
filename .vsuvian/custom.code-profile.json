@@ -20,7 +20,7 @@
             "markdown.styles": [
                 ".vsuvian/custom.css"
             ],
-            "markdown.extension.extraLangIds": []
+            "window.zoomLevel": 0.4
         }
     },
     "tasks": {
@@ -329,6 +329,16 @@
                     "pinned": true,
                     "visible": false,
                     "order": 100
+                },
+                {
+                    "id": "workbench.views.service.auxiliarybar.f929a055-ec49-41ea-b36b-674780a61870",
+                    "pinned": true,
+                    "visible": false
+                },
+                {
+                    "id": "workbench.views.service.auxiliarybar.145ef193-0b28-4ec5-9c7f-854ac11eb8d2",
+                    "pinned": true,
+                    "visible": false
                 }
             ],
             "workbench.view.debug.state.hidden": [
@@ -1321,7 +1331,35 @@
                 "status.forwardedPorts",
                 "status.problems"
             ],
-            "workbench.activity.showAccounts": false
+            "workbench.activity.showAccounts": false,
+            "workbench.views.service.auxiliarybar.145ef193-0b28-4ec5-9c7f-854ac11eb8d2.state.hidden": [
+                {
+                    "id": "outline",
+                    "isHidden": false
+                }
+            ],
+            "views.customizations": {
+                "viewContainerLocations": {
+                    "workbench.views.service.auxiliarybar.145ef193-0b28-4ec5-9c7f-854ac11eb8d2": 2,
+                    "workbench.views.service.auxiliarybar.f929a055-ec49-41ea-b36b-674780a61870": 2
+                },
+                "viewLocations": {
+                    "outline": "workbench.views.service.auxiliarybar.145ef193-0b28-4ec5-9c7f-854ac11eb8d2",
+                    "memo.backlinksPanel": "workbench.views.service.auxiliarybar.f929a055-ec49-41ea-b36b-674780a61870"
+                },
+                "viewContainerBadgeEnablementStates": {}
+            },
+            "workbench.views.service.auxiliarybar.f929a055-ec49-41ea-b36b-674780a61870.state.hidden": [
+                {
+                    "id": "memo.backlinksPanel",
+                    "isHidden": false
+                }
+            ],
+            "menu.hiddenCommands": {
+                "EditorTitle": [
+                    "workbench.action.splitEditor"
+                ]
+            }
         }
     }
 }

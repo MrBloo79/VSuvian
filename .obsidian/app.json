@@ -1,4 +1,5 @@
 {
   "useTab": false,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "livePreview": false
 }
