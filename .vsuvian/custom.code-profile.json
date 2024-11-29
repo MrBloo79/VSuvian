@@ -8,7 +8,8 @@
             "editor.stickyScroll.enabled": false,
             "markdownExtended.disabledPlugins": "kbd",
             "markdown.extension.italic.indicator": "_",
-            "preview.previewTheme": "Dark"
+            "preview.previewTheme": "Dark",
+            "workbench.startupEditor": "none"
         }
     },
     "tasks": {
@@ -51,6 +52,7 @@
                 "uuid": "41c03ed0-b7b8-4476-8d01-926a7e041e69"
             },
             "displayName": "Markdown Extended",
+            "version": "1.1.4",
             "applicationScoped": false
         },
         {
@@ -1132,6 +1134,9 @@
                     "done": true
                 },
                 "installGit": {
+                    "done": true
+                },
+                "settings": {
                     "done": true
                 }
             },
