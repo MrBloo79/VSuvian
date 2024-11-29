@@ -9,7 +9,14 @@
             "markdownExtended.disabledPlugins": "kbd",
             "markdown.extension.italic.indicator": "_",
             "preview.previewTheme": "Dark",
-            "workbench.startupEditor": "none"
+            "workbench.startupEditor": "none",
+            "files.defaultLanguage": "markdown",
+            "explorer.confirmDelete": false,
+            "editor.minimap.enabled": false,
+            "files.exclude": {
+                "**/.obsidian": true,
+                "**/.vsuvian": true
+            }
         }
     },
     "tasks": {
