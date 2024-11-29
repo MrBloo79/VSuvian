@@ -16,7 +16,8 @@
             "files.exclude": {
                 "**/.obsidian": true,
                 "**/.vsuvian": true
-            }
+            },
+            "workbench.activityBar.location": "top"
         }
     },
     "tasks": {
@@ -173,7 +174,7 @@
                     "isHidden": false
                 }
             ],
-            "workbench.activityBar.location": "default",
+            "workbench.activityBar.location": "top",
             "workbench.activity.pinnedViewlets2": [
                 {
                     "id": "workbench.view.explorer",
@@ -189,13 +190,13 @@
                 },
                 {
                     "id": "workbench.view.scm",
-                    "pinned": true,
+                    "pinned": false,
                     "visible": false,
                     "order": 2
                 },
                 {
                     "id": "workbench.view.debug",
-                    "pinned": true,
+                    "pinned": false,
                     "visible": false,
                     "order": 3
                 },
@@ -207,7 +208,7 @@
                 },
                 {
                     "id": "workbench.view.extensions",
-                    "pinned": true,
+                    "pinned": false,
                     "visible": false,
                     "order": 4
                 },
@@ -225,7 +226,7 @@
                 },
                 {
                     "id": "workbench.view.extension.project-manager",
-                    "pinned": true,
+                    "pinned": false,
                     "visible": false,
                     "order": 8
                 },
@@ -1161,7 +1162,139 @@
                     "done": true
                 }
             },
-            "workbench.panel.alignment": "center"
+            "workbench.panel.alignment": "center",
+            "workbench.view.extensions.state.hidden": [
+                {
+                    "id": "workbench.views.extensions.installed",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.searchOutdated",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.workspaceRecommendations",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.popular",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.searchRecentlyUpdated",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.otherRecommendations",
+                    "isHidden": false
+                },
+                {
+                    "id": "extensions.recommendedList",
+                    "isHidden": true
+                },
+                {
+                    "id": "workbench.views.extensions.enabled",
+                    "isHidden": true
+                },
+                {
+                    "id": "workbench.views.extensions.disabled",
+                    "isHidden": true
+                },
+                {
+                    "id": "workbench.views.extensions.marketplace",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.searchInstalled",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.searchEnabled",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.searchDisabled",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.searchBuiltin",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.searchWorkspaceUnsupported",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.builtinFeatureExtensions",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.builtinThemeExtensions",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.builtinProgrammingLanguageExtensions",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.untrustedUnsupportedExtensions",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.untrustedPartiallySupportedExtensions",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.virtualUnsupportedExtensions",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.virtualPartiallySupportedExtensions",
+                    "isHidden": false
+                },
+                {
+                    "id": "workbench.views.extensions.deprecatedExtensions",
+                    "isHidden": false
+                }
+            ],
+            "workbench.view.extension.project-manager.state.hidden": [
+                {
+                    "id": "projectsExplorerFavorites",
+                    "isHidden": false
+                },
+                {
+                    "id": "projectsExplorerGit",
+                    "isHidden": false
+                },
+                {
+                    "id": "projectsExplorerSVN",
+                    "isHidden": false
+                },
+                {
+                    "id": "projectsExplorerAny",
+                    "isHidden": false
+                },
+                {
+                    "id": "projectsExplorerMercurial",
+                    "isHidden": false
+                },
+                {
+                    "id": "projectsExplorerVSCode",
+                    "isHidden": false
+                },
+                {
+                    "id": "projectManagerHelpAndFeedback",
+                    "isHidden": true
+                }
+            ],
+            "workbench.statusbar.hidden": [
+                "status.scm.1",
+                "status.scm.0",
+                "status.host",
+                "status.forwardedPorts",
+                "status.problems"
+            ],
+            "workbench.activity.showAccounts": false
         }
     }
 }
