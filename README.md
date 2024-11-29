@@ -40,10 +40,11 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
 
 ## Credits
 
-- [Foam](https://foambubble.github.io/foam/) by Riccardo Ferretti
-- [Markdown Alert](https://github.com/kejunmao/vscode-markdown-alert) by KeJunMao
-- [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown) by Yu Zhang
-- [Markdown Extended](https://github.com/qjebbs/vscode-markdown-extended) by jebbs
+- [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode) by Riccardo Ferretti
+- [Markdown Alert](https://marketplace.visualstudio.com/items?itemName=kejun.markdown-alert) by KeJunMao
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) by Yu Zhang
+- [Markdown Extended](https://marketplace.visualstudio.com/items?itemName=jebbs.markdown-extended) by jebbs
+- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) by Alessandro Fragnani
 
 ## Design Rationales
 
