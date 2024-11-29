@@ -81,6 +81,14 @@
         },
         {
             "identifier": {
+                "id": "sleistner.vscode-fileutils",
+                "uuid": "d637104e-1fd7-4063-98fc-8afe46012c9b"
+            },
+            "displayName": "File Utils",
+            "applicationScoped": false
+        },
+        {
+            "identifier": {
                 "id": "yzhang.markdown-all-in-one",
                 "uuid": "98790d67-10fa-497c-9113-f6c7489207b2"
             },
