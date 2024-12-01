@@ -32,9 +32,16 @@
     "keybindings": {
         "keybindings": [
             {
-                "key": "ctrl+shift+v",
-                "command": "-markdown.showPreview",
-                "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+                "key": "ctrl+o",
+                "command": "workbench.action.quickOpen"
+            },
+            {
+                "key": "ctrl+e",
+                "command": "-workbench.action.quickOpen"
+            },
+            {
+                "key": "ctrl+o",
+                "command": "-workbench.action.files.openFile"
             },
             {
                 "key": "ctrl+e",
@@ -42,18 +49,14 @@
                 "when": "!notebookEditorFocused && editorLangId == 'markdown'"
             },
             {
-                "key": "ctrl+e",
-                "command": "markdown.showSource",
-                "when": "activeWebviewPanelId == 'markdown.preview'"
-            },
-            {
-                "key": "ctrl+k v",
-                "command": "-markdown.showPreviewToSide",
+                "key": "ctrl+shift+v",
+                "command": "-markdown.showPreview",
                 "when": "!notebookEditorFocused && editorLangId == 'markdown'"
             },
             {
-                "key": "ctrl+v",
-                "command": "-editor.action.clipboardPasteAction"
+                "key": "ctrl+e",
+                "command": "markdown.showSource",
+                "when": "activeWebviewPanelId == 'markdown.preview'"
             },
             {
                 "key": "ctrl+v",
@@ -66,28 +69,44 @@
                 "when": "!notebookEditorFocused && editorLangId == 'markdown'"
             },
             {
-                "key": "ctrl+e",
-                "command": "-workbench.action.quickOpen"
+                "key": "ctrl+v",
+                "command": "-editor.action.clipboardPasteAction"
             },
             {
-                "key": "ctrl+o",
-                "command": "-workbench.action.files.openFile"
+                "key": "ctrl+alt+left",
+                "command": "workbench.action.navigateBack",
+                "when": "canNavigateBack"
             },
             {
-                "key": "ctrl+o",
-                "command": "workbench.action.quickOpen"
+                "key": "alt+left",
+                "command": "-workbench.action.navigateBack",
+                "when": "canNavigateBack"
             },
             {
-                "key": "ctrl+p",
-                "command": "-workbench.action.quickOpen"
+                "key": "ctrl+alt+left",
+                "command": "-workbench.action.moveEditorToPreviousGroup"
+            },
+            {
+                "key": "ctrl+alt+right",
+                "command": "workbench.action.navigateForward",
+                "when": "canNavigateForward"
+            },
+            {
+                "key": "alt+right",
+                "command": "-workbench.action.navigateForward",
+                "when": "canNavigateForward"
+            },
+            {
+                "key": "ctrl+alt+right",
+                "command": "-workbench.action.moveEditorToNextGroup"
             },
             {
                 "key": "ctrl+p",
                 "command": "workbench.action.showCommands"
             },
             {
-                "key": "ctrl+shift+p",
-                "command": "-workbench.action.showCommands"
+                "key": "ctrl+p",
+                "command": "-workbench.action.quickOpen"
             }
         ],
         "platform": 3

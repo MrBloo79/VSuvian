@@ -68,8 +68,10 @@ Live Preview and Sticky Scroll are disabled to ensure a consistent behavior betw
 
 Custom hotkeys allow to maintain a consistent experience between Obsidian and VSCode:
 
-- `Ctrl + E` to toggle preview/source mode
 - `Ctrl + O` to quick open files
-- `Ctrl + P` to show commands
+- `Ctrl + E` to toggle preview/source mode
 - `Ctrl + V` to paste as Markdown
 - `Ctrl + Shift + V` to paste without converting
+- `Ctrl + Alt + LeftArrow` to navigate back
+- `Ctrl + Alt + RightArrow` to navigate forward
+- `Ctrl + P` to show commands
