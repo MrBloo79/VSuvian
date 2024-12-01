@@ -24,7 +24,9 @@
             "markdown.extension.extraLangIds": [],
             "window.zoomLevel": 0.4,
             "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
-            "explorer.compactFolders": false
+            "explorer.compactFolders": false,
+            "editor.lineNumbers": "off",
+            "breadcrumbs.enabled": false
         }
     },
     "keybindings": {
@@ -1396,7 +1398,12 @@
                 "status.scm.0",
                 "status.host",
                 "status.forwardedPorts",
-                "status.problems"
+                "status.problems",
+                "status.editor.mode",
+                "status.editor.eol",
+                "status.editor.encoding",
+                "status.editor.indentation",
+                "status.editor.selection"
             ],
             "workbench.activity.showAccounts": false,
             "workbench.views.service.auxiliarybar.145ef193-0b28-4ec5-9c7f-854ac11eb8d2.state.hidden": [
@@ -1426,6 +1433,10 @@
                 "EditorTitle": [
                     "workbench.action.splitEditor",
                     "git.openChange"
+                ],
+                "LayoutControlMenu": [
+                    "workbench.action.customizeLayout",
+                    "workbench.action.togglePanel"
                 ]
             }
         }

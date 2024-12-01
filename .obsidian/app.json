@@ -1,5 +1,8 @@
 {
   "useTab": false,
   "showUnsupportedFiles": true,
-  "livePreview": false
+  "livePreview": false,
+  "showInlineTitle": false,
+  "showRibbon": false,
+  "promptDelete": false
 }
