@@ -6,7 +6,7 @@
             "markdown.preview.breaks": true,
             "files.autoSave": "afterDelay",
             "editor.stickyScroll.enabled": false,
-            "markdownExtended.disabledPlugins": "kbd",
+            "markdownExtended.disabledPlugins": "admonition, attrs, container, html5-embed, kbd",
             "markdown.extension.italic.indicator": "_",
             "workbench.startupEditor": "none",
             "files.defaultLanguage": "markdown",

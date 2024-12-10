@@ -23,7 +23,7 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
     - [x] Code (as inline or blocks)
 - [ ] Extended formatting syntax
     - [x] Internal links (as wikilinks with aliases)
-    - [ ] Embed files and images (with custom width)
+    - [x] Embed files and images (with custom size)
     - [x] Properties
     - [x] Tasks
     - [x] Strikethrough
@@ -60,11 +60,11 @@ It aims to facilitate collaboration in situations where Obsidian is not an optio
 
 Markdown Memo may not the most popular note-linking extension for VSCode. It lacks a tag system and graph view. However, unlike Foam, it allows wikilinks (as strings) in the frontmatter and offers better completion than Markdown Notes.
 
-### Render Consistency
+### Render
 
 Live Preview and Sticky Scroll are disabled to ensure a consistent behavior between Obsidian and VSCode. However an alternative could be to replicate Sticky Scroll using the [Another Sticky Headings](https://github.com/zhouhua/obsidian-sticky-headings) plugin.
 
-### Keyboard Shortcuts Consistency
+### Keyboard Shortcuts
 
 Custom hotkeys allow to maintain a consistent experience between Obsidian and VSCode:
 
@@ -75,3 +75,7 @@ Custom hotkeys allow to maintain a consistent experience between Obsidian and VS
 - `Ctrl + Alt + LeftArrow` to navigate back
 - `Ctrl + Alt + RightArrow` to navigate forward
 - `Ctrl + P` to show commands
+
+### Image Size
+
+Custom CSS in VSCode allows to set image width by appending `|100` to the target. This is akin to Obsidian's native capabilities, with values from 100px to 1000px in 100px increments. Height can be set by appending `|x100`, with values from 100px to 500px in 100px increments. Another approach could be to use inline attributes `{ width=100 height=100 }` through plugins. However, this method tends to be less reliable within tables.

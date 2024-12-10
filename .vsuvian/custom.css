@@ -7,3 +7,65 @@
 #docInfoTable th, #docInfoTable td {
     border: none;
 }
+
+/* Image width based on alt text (internal and external) */
+img[alt="100"], img[alt$="|100"] {
+    width: 100px;
+}
+
+img[alt="200"], img[alt$="|200"] {
+    width: 200px;
+}
+
+img[alt="300"], img[alt$="|300"] {
+    width: 300px;
+}
+
+img[alt="400"], img[alt$="|400"] {
+    width: 400px;
+}
+
+img[alt="500"], img[alt$="|500"] {
+    width: 500px;
+}
+
+img[alt="600"], img[alt$="|600"] {
+    width: 600px;
+}
+
+img[alt="700"], img[alt$="|700"] {
+    width: 700px;
+}
+
+img[alt="800"], img[alt$="|800"] {
+    width: 800px;
+}
+
+img[alt="900"], img[alt$="|900"] {
+    width: 900px;
+}
+
+img[alt="1000"], img[alt$="|1000"] {
+    width: 1000px;
+}
+
+/* Image height based on alt text (internal and external) */
+img[alt="x100"], img[alt$="|x100"] {
+    height: 100px;
+}
+
+img[alt="x200"], img[alt$="|x200"] {
+    height: 200px;
+}
+
+img[alt="x300"], img[alt$="|x300"] {
+    height: 300px;
+}
+
+img[alt="x400"], img[alt$="|x400"] {
+    height: 400px;
+}
+
+img[alt$="x500"], img[alt$="|x500"] {
+    height: 500px;
+}

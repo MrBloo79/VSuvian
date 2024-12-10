@@ -1,0 +1,20 @@
+/* Image height based on alt text (internal and external) */
+img[alt="x100"], img[alt$="|x100"] {
+    height: 100px;
+}
+
+img[alt="x200"], img[alt$="|x200"] {
+    height: 200px;
+}
+
+img[alt="x300"], img[alt$="|x300"] {
+    height: 300px;
+}
+
+img[alt="x400"], img[alt$="|x400"] {
+    height: 400px;
+}
+
+img[alt$="x500"], img[alt$="|x500"] {
+    height: 500px;
+}

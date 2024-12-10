@@ -2,7 +2,7 @@
 !.gitignore
 !.obsidian/
 !.obsidian/*
-.obsidian/appearance.json
+!.obsidian/snippets/custom.css
 .obsidian/workspace.json
 !.vsuvian/
 !.vsuvian/*
